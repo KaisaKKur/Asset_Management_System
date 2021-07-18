@@ -1,0 +1,556 @@
+<Dictionary name="Asset Management System" prefix="ams" xmlns="http://weblookandfeel.com/Dictionary">
+    <Dictionary name="AMS Application" prefix="application">
+        <Dictionary prefix="windows">
+            <Dictionary prefix="login">
+                <record key="title">
+                    <value lang="en">Welcome Administrator</value>
+                    <value lang="zh">欢迎管理员</value>
+                </record>
+                <record key="administrator">
+                    <value lang="en">Administrator:</value>
+                    <value lang="zh">管理员:</value>
+                </record>
+                <record key="password">
+                    <value lang="en">Password:</value>
+                    <value lang="zh">密码:</value>
+                </record>
+                <record key="enter">
+                    <value lang="en">Enter</value>
+                    <value lang="zh">登录</value>
+                </record>
+                <record key="exit">
+                    <value lang="en">Exit</value>
+                    <value lang="zh">退出</value>
+                </record>
+            </Dictionary>
+            <Dictionary prefix="menus">
+                <record key="title">
+                    <value lang="en">Menu</value>
+                    <value lang="zh">菜单</value>
+                </record>
+                <Dictionary prefix="menu">
+                    <record key="system-management">
+                        <value lang="en" mnemonic="S">System</value>
+                        <value lang="zh" mnemonic="S">系统管理(S)</value>
+                    </record>
+                    <record key="category">
+                        <value lang="en" mnemonic="C">Asset Category</value>
+                        <value lang="zh" mnemonic="C">资产类别管理(C)</value>
+                    </record>
+                    <record key="asset-management">
+                        <value lang="en" mnemonic="A">Asset Information</value>
+                        <value lang="zh" mnemonic="A">资产信息管理(A)</value>
+                    </record>
+                    <record key="asset-employ-query">
+                        <value lang="en" mnemonic="S">Asset Employ Query</value>
+                        <value lang="zh" mnemonic="S">服务综合查询(Q)</value>
+                    </record>
+                    <record key="asset-add">
+                        <value lang="en" mnemonic="A">Add</value>
+                        <value lang="zh" mnemonic="A">添加资产信息(A)</value>
+                    </record>
+                    <record key="asset-modify">
+                        <value lang="en" mnemonic="M">Modify</value>
+                        <value lang="zh" mnemonic="M">修改资产信息(M)</value>
+                    </record>
+                    <record key="asset-delete">
+                        <value lang="en" mnemonic="D">Delete</value>
+                        <value lang="zh" mnemonic="D">删除资产信息(D)</value>
+                    </record>
+                    <record key="asset-query">
+                        <value lang="en" mnemonic="Q">Query</value>
+                        <value lang="zh" mnemonic="Q">查询资产信息(Q)</value>
+                    </record>
+                    <record key="query-all">
+                        <value lang="en" mnemonic="A">Query All</value>
+                        <value lang="zh" mnemonic="A">查询所有(A)</value>
+                    </record>
+                    <record key="query-id">
+                        <value lang="en" mnemonic="I">Query ID</value>
+                        <value lang="zh" mnemonic="I">按编号查询(I)</value>
+                    </record>
+                    <record key="staff-management">
+                        <value lang="en" mnemonic="F">Staff</value>
+                        <value lang="zh" mnemonic="F">人员信息管理(F)</value>
+                    </record>
+                    <record key="staff-add">
+                        <value lang="en" mnemonic="A">Add</value>
+                        <value lang="zh" mnemonic="A">添加人员信息(A)</value>
+                    </record>
+                    <record key="staff-modify">
+                        <value lang="en" mnemonic="M">Modify</value>
+                        <value lang="zh" mnemonic="M">修改人员信息(M)</value>
+                    </record>
+                    <record key="staff-delete">
+                        <value lang="en" mnemonic="D">Delete</value>
+                        <value lang="zh" mnemonic="D">删除人员信息(D)</value>
+                    </record>
+                    <record key="staff-query">
+                        <value lang="en" mnemonic="Q">Query</value>
+                        <value lang="zh" mnemonic="Q">查询人员信息(Q)</value>
+                    </record>
+                    <record key="list-all">
+                        <value lang="en" mnemonic="L">List All</value>
+                        <value lang="zh" mnemonic="L">罗列所有资产(L)</value>
+                    </record>
+                    <record key="asset-employ-management">
+                        <value lang="en" mnemonic="E">Asset Employ</value>
+                        <value lang="zh" mnemonic="E">资产服务管理(E)</value>
+                    </record>
+                    <record key="asset-employ-borrow">
+                        <value lang="en" mnemonic="B">Asset Borrow</value>
+                        <value lang="zh" mnemonic="B">资产领用(B)</value>
+                    </record>
+                    <record key="asset-employ-borrow-management">
+                        <value lang="en" mnemonic="M">Asset Borrow Management</value>
+                        <value lang="zh" mnemonic="M">资产领用管理(M)</value>
+                    </record>
+                    <record key="asset-employ-borrow-query">
+                        <value lang="en" mnemonic="Q">Asset Borrow Query</value>
+                        <value lang="zh" mnemonic="Q">资产领用查询(Q)</value>
+                    </record>
+                    <record key="asset-employ-remand">
+                        <value lang="en" mnemonic="B">Asset Remand</value>
+                        <value lang="zh" mnemonic="B">资产归还(R)</value>
+                    </record>
+                    <record key="asset-employ-remand-management">
+                        <value lang="en" mnemonic="M">Asset Remand Management</value>
+                        <value lang="zh" mnemonic="M">资产归还管理(M)</value>
+                    </record>
+                    <record key="asset-employ-remand-query">
+                        <value lang="en" mnemonic="Q">Asset Remand Query</value>
+                        <value lang="zh" mnemonic="Q">资产归还查询(Q)</value>
+                    </record>
+                    <record key="asset-employ-scrapped">
+                        <value lang="en" mnemonic="B">Asset Scrapped</value>
+                        <value lang="zh" mnemonic="B">资产报废(S)</value>
+                    </record>
+                    <record key="asset-employ-scrapped-management">
+                        <value lang="en" mnemonic="M">Asset Scrapped Management</value>
+                        <value lang="zh" mnemonic="M">资产报废管理(M)</value>
+                    </record>
+                    <record key="asset-employ-scrapped-query">
+                        <value lang="en" mnemonic="Q">Asset Scrapped Query</value>
+                        <value lang="zh" mnemonic="Q">资产报废查询(Q)</value>
+                    </record>
+                    <record key="help">
+                        <value lang="en" mnemonic="H">Help</value>
+                        <value lang="zh" mnemonic="H">帮助(H)</value>
+                    </record>
+                    <record key="update">
+                        <value lang="en" mnemonic="U">Update...</value>
+                        <value lang="zh" mnemonic="U">检查更新(U)...</value>
+                    </record>
+                    <record key="about">
+                        <value lang="en" mnemonic="A">About</value>
+                        <value lang="zh" mnemonic="A">关于(A)</value>
+                    </record>
+                    <record key="languagechooser">
+                        <value lang="en" mnemonic="L">Language</value>
+                        <value lang="zh" mnemonic="L">语言(L)</value>
+                    </record>
+                    <record key="chinses">
+                        <value lang="en" mnemonic="C">Chinses</value>
+                        <value lang="zh" mnemonic="Z">简体中文(Z)</value>
+                    </record>
+                    <record key="english">
+                        <value lang="en" mnemonic="E">English</value>
+                        <value lang="zh" mnemonic="E">英语(E)</value>
+                    </record>
+                    <record key="reboot">
+                        <value lang="zh" mnemonic="R">重启(R)</value>
+                        <value lang="en" mnemonic="R">Reboot</value>
+                    </record>
+                    <record key="exit">
+                        <value lang="zh" mnemonic="X">退出(X)</value>
+                        <value lang="en" mnemonic="X">Exit</value>
+                    </record>
+                </Dictionary>
+            </Dictionary>
+            <Dictionary prefix="dialog">
+                <Dictionary prefix="title">
+                    <record key="add-data">
+                        <value lang="en">Add Date</value>
+                        <value lang="zh">添加数据</value>
+                    </record>
+                    <record key="modify-data">
+                        <value lang="en">Modify Data</value>
+                        <value lang="zh">修改数据</value>
+                    </record>
+                    <record key="delete-data">
+                        <value lang="en">Delete Data</value>
+                        <value lang="zh">删除数据</value>
+                    </record>
+                    <record key="clean-data">
+                        <value lang="en">Clean Data</value>
+                        <value lang="zh">清空数据</value>
+                    </record>
+                    <record key="borrow">
+                        <value lang="en">Borrow Employ</value>
+                        <value lang="zh">领用服务</value>
+                    </record>
+                    <record key="remand">
+                        <value lang="en">Remand Employ</value>
+                        <value lang="zh">归还服务</value>
+                    </record>
+                    <record key="scrap">
+                        <value lang="en">Scrap Employ</value>
+                        <value lang="zh">报废服务</value>
+                    </record>
+                </Dictionary>
+                <record key="asset-category-empty">
+                    <value lang="en">The asset category table is empty. Please modify the asset category table.</value>
+                    <value lang="zh">资产类别表是空的，请修改资产类别表。</value>
+                </record>
+                <record key="title-ams">
+                    <value lang="en">Asset Management System</value>
+                    <value lang="zh">资产管理系统</value>
+                </record>
+                <record key="title-waring">
+                    <value lang="en">Waring</value>
+                    <value lang="zh">警告</value>
+                </record>
+                <record key="confirm">
+                    <value lang="en" mnemonic="K">OK</value>
+                    <value lang="zh">确定</value>
+                </record>
+                <record key="save">
+                    <value lang="en" mnemonic="S">Save</value>
+                    <value lang="zh">保存</value>
+                </record>
+                <record key="cancel">
+                    <value lang="en" mnemonic="C">Cancel</value>
+                    <value lang="zh">取消</value>
+                </record>
+                <record key="close">
+                    <value lang="en" mnemonic="C">Close</value>
+                    <value lang="zh">关闭</value>
+                </record>
+                <record key="copy">
+                    <value lang="en" mnemonic="C">Copy</value>
+                    <value lang="zh">复制</value>
+                </record>
+                <record key="operation-data">
+                    <value lang="en">Sorry, Your operation is wrong. Please try again.</value>
+                    <value lang="zh">抱歉，你的操作有误，请重试。</value>
+                </record>
+                <record key="modify-data">
+                    <value lang="en">You are using the modify service, Please check the information carefully.</value>
+                    <value lang="zh">你正在使用修改服务，请认真核对信息。</value>
+                </record>
+                <record key="waring-data">
+                    <value lang="en">Sorry, the data you provided is invalid. Please re-enter.</value>
+                    <value lang="zh">你提供的数据是无效的，请重试。</value>
+                </record>
+                <record key="delete-data">
+                    <value lang="en">You are deleting important data.</value>
+                    <value lang="zh">你正在删除重要数据。</value>
+                </record>
+                <record key="no-select-data">
+                    <value lang="en">Sorry, you didn't select any data.</value>
+                    <value lang="zh">抱歉，你没有选择任何数据。</value>
+                </record>
+                <record key="category-conflict-data">
+                    <value lang="en">Sorry, the data you are deleting classifies some assets. Please modify the asset classification first.</value>
+                    <value lang="zh">抱歉，你正在删除的数据分类了某些资产，请先修改资产的所属类型。</value>
+                </record>
+                <record key="asset-conflict-data">
+                    <value lang="en">Sorry, The asset you are deleting is borrowed.</value>
+                    <value lang="zh">抱歉，你正在删除的资产被借用。</value>
+                </record>
+                <record key="borrow-conflict-data">
+                    <value lang="en">Sorry, the staff you are deleting is borrowing an asset.</value>
+                    <value lang="zh">抱歉，你正在删除的员工正在借用某资产。</value>
+                </record>
+                <record key="clean-data">
+                    <value lang="en">You are cleaning important data.</value>
+                    <value lang="zh">你正在清空重要数据。</value>
+                </record>
+                <record key="clean-no-data">
+                    <value lang="en">Sorry, this data is already empty.</value>
+                    <value lang="zh">抱歉，此数据表已经为空。</value>
+                </record>
+                <record key="borrow">
+                    <value lang="en">You are sure to take the product?</value>
+                    <value lang="zh">你确定领用该产品?</value>
+                </record>
+                <record key="remand">
+                    <value lang="en">You are sure to remand the product?</value>
+                    <value lang="zh">你确定归还该产品?</value>
+                </record>
+                <record key="scrap">
+                    <value lang="en">You are sure to scrap the product?</value>
+                    <value lang="zh">你确定报废该产品?</value>
+                </record>
+                <record key="update">
+                    <value lang="en">You are using the latest version.</value>
+                    <value lang="zh">你使用的已经是最新版本。</value>
+                </record>
+                <record key="notification">
+                    <value lang="en">You have chosen: </value>
+                    <value lang="zh">你选择了：</value>
+                </record>
+                <Dictionary prefix="notification">
+                    <record key="save">
+                        <value lang="en">You have saved the data.</value>
+                        <value lang="zh">你成功保存了数据。</value>
+                    </record>
+                    <record key="modify">
+                        <value lang="en">You have modified the data.</value>
+                        <value lang="zh">你成功修改了数据。</value>
+                    </record>
+                    <record key="delete">
+                        <value lang="en">You have deleted the data.</value>
+                        <value lang="zh">你成功删除了数据。</value>
+                    </record>
+                    <record key="clean">
+                        <value lang="en">You have cleaned the data.</value>
+                        <value lang="zh">你成功清空了数据。</value>
+                    </record>
+                    <record key="close">
+                        <value lang="en">You have closed the dialog.</value>
+                        <value lang="zh">你已经关闭了对话框。</value>
+                    </record>
+                    <record key="borrow">
+                        <value lang="en">You have borrowed the asset.</value>
+                        <value lang="zh">你成功领取了该资产。</value>
+                    </record>
+                    <record key="scrap">
+                        <value lang="en">You have Scrapped the asset.</value>
+                        <value lang="zh">你成功报废了该资产。</value>
+                    </record>
+                    <record key="remand">
+                        <value lang="en">You have remanded the asset.</value>
+                        <value lang="zh">你成功归还了该资产。</value>
+                    </record>
+                    <record key="load">
+                        <value lang="en">Resource Reloaded.</value>
+                        <value lang="zh">已经重新加载资源。</value>
+                    </record>
+                    <Dictionary prefix="about">
+                        <record key="copy">
+                            <value lang="en">You have copied the about dialog.</value>
+                            <value lang="zh">你复制了一份版本信息。</value>
+                        </record>
+                        <record key="closed">
+                            <value lang="en">You have closed the about dialog.</value>
+                            <value lang="zh">你已经关闭了“关于”对话框。</value>
+                        </record>
+                    </Dictionary>
+                </Dictionary>
+            </Dictionary>
+            <Dictionary prefix="tables">
+                <record key="welcome">
+                    <value lang="en">Welcome</value>
+                    <value lang="zh">欢迎</value>
+                </record>
+                <record key="title-name">
+                    <value lang="en">Tab - %s</value>
+                    <value lang="zh">表 - %s</value>
+                </record>
+                <record key="header">
+                    <value lang="en">Header column at index %s with name "%s"</value>
+                    <value lang="zh">表属性位于索引 %s 名为 "%s"</value>
+                </record>
+                <record key="cell">
+                    <value lang="en">Table cell at (%s,%s) with value "%s"</value>
+                    <value lang="zh">表单元格位于 (%s,%s) 值为 "%s"</value>
+                </record>
+                <Dictionary prefix="asset">
+                    <record key="name">
+                        <value lang="en">Asset Category</value>
+                        <value lang="zh">资产类别信息</value>
+                    </record>
+                    <record key="column-name-id">
+                        <value lang="en">ID</value>
+                        <value lang="zh">资产类别编号</value>
+                    </record>
+                    <record key="column-name-big-category">
+                        <value lang="en">Big Category</value>
+                        <value lang="zh">资产大类</value>
+                    </record>
+                    <record key="column-name-small-category">
+                        <value lang="en">Small Category</value>
+                        <value lang="zh">资产小类</value>
+                    </record>
+                </Dictionary>
+                <Dictionary prefix="asset-info">
+                    <record key="name">
+                        <value lang="en">Asset</value>
+                        <value lang="zh">资产信息</value>
+                    </record>
+                    <record key="column-name-id">
+                        <value lang="en">ID</value>
+                        <value lang="zh">资产编号</value>
+                    </record>
+                    <record key="column-name">
+                        <value lang="en">Name</value>
+                        <value lang="zh">资产名称</value>
+                    </record>
+                    <record key="column-name-type">
+                        <value lang="en">Type</value>
+                        <value lang="zh">所属类型</value>
+                    </record>
+                    <record key="column-name-model">
+                        <value lang="en">Model</value>
+                        <value lang="zh">型号</value>
+                    </record>
+                    <record key="column-name-price">
+                        <value lang="en">Price</value>
+                        <value lang="zh">价格</value>
+                    </record>
+                    <record key="column-name-buy-date">
+                        <value lang="en">Buy Date</value>
+                        <value lang="zh">购买日期</value>
+                    </record>
+                    <record key="column-name-status">
+                        <value lang="en">Status</value>
+                        <value lang="zh">状态</value>
+                    </record>
+                    <record key="column-name-other">
+                        <value lang="en">Other</value>
+                        <value lang="zh">备注</value>
+                    </record>
+                </Dictionary>
+                <Dictionary prefix="staff-info">
+                    <record key="name">
+                        <value lang="en">Staff</value>
+                        <value lang="zh">人员信息</value>
+                    </record>
+                    <record key="column-name-id">
+                        <value lang="en">ID</value>
+                        <value lang="zh">人员编号</value>
+                    </record>
+                    <record key="column-name">
+                        <value lang="en">Name</value>
+                        <value lang="zh">姓名</value>
+                    </record>
+                    <record key="column-name-sex">
+                        <value lang="en">Sex</value>
+                        <value lang="zh">性别</value>
+                    </record>
+                    <record key="column-name-dept">
+                        <value lang="en">Dept</value>
+                        <value lang="zh">部门</value>
+                    </record>
+                    <record key="column-name-job">
+                        <value lang="en">Job</value>
+                        <value lang="zh">职位</value>
+                    </record>
+                    <record key="column-name-other">
+                        <value lang="en">Other</value>
+                        <value lang="zh">其他</value>
+                    </record>
+                </Dictionary>
+                <Dictionary prefix="asset-employ">
+                    <record key="name-borrow">
+                        <value lang="en">Borrow Employ</value>
+                        <value lang="zh">资产领用服务</value>
+                    </record>
+                    <record key="name-scrap">
+                        <value lang="en">Scrap Employ</value>
+                        <value lang="zh">资产报废服务</value>
+                    </record>
+                    <record key="name-employ">
+                        <value lang="en">Asset Employ</value>
+                        <value lang="zh">服务综合查询</value>
+                    </record>
+                    <record key="name-remand">
+                        <value lang="en">Remand Employ</value>
+                        <value lang="zh">资产归还服务</value>
+                    </record>
+                    <record key="column-name-type">
+                        <value lang="en">Type</value>
+                        <value lang="zh">操作类型</value>
+                    </record>
+                    <record key="column-name-id">
+                        <value lang="en">ID</value>
+                        <value lang="zh">编号</value>
+                    </record>
+                    <record key="column-name-asset-id">
+                        <value lang="en">Asset ID</value>
+                        <value lang="zh">资产编号</value>
+                    </record>
+                    <record key="column-name-date">
+                        <value lang="en">Date</value>
+                        <value lang="zh">时间</value>
+                    </record>
+                    <record key="column-name-staff">
+                        <value lang="en">Staff</value>
+                        <value lang="zh">领用人员</value>
+                    </record>
+                    <record key="column-name-type-staff">
+                        <value lang="en">Staff</value>
+                        <value lang="zh">操作人员</value>
+                    </record>
+                    <record key="column-name-type-reason">
+                        <value lang="en">Reason</value>
+                        <value lang="zh">操作原因</value>
+                    </record>
+                    <record key="column-name-use">
+                        <value lang="en">Use</value>
+                        <value lang="zh">用途</value>
+                    </record>
+                    <record key="column-name-remand">
+                        <value lang="en">Reason</value>
+                        <value lang="zh">归还原因</value>
+                    </record>
+                    <record key="column-name-scrap">
+                        <value lang="en">Reason</value>
+                        <value lang="zh">报废原因</value>
+                    </record>
+                    <record key="column-name-other">
+                        <value lang="en">Other</value>
+                        <value lang="zh">备注</value>
+                    </record>
+                </Dictionary>
+            </Dictionary>
+            <Dictionary prefix="webtextfield">
+                <Dictionary prefix="inputprompt">
+                    <record key="search">
+                        <value lang="en">Search...</value>
+                        <value lang="zh">搜索...</value>
+                    </record>
+                    <record key="input">
+                        <value lang="en">Input...</value>
+                        <value lang="zh">输入...</value>
+                    </record>
+                </Dictionary>
+            </Dictionary>
+            <Dictionary prefix="button">
+                <record key="add">
+                    <value lang="en">Add</value>
+                    <value lang="zh">添加</value>
+                </record>
+                <record key="delete">
+                    <value lang="en">Delete</value>
+                    <value lang="zh">删除</value>
+                </record>
+                <record key="modify">
+                    <value lang="en">Modify</value>
+                    <value lang="zh">修改</value>
+                </record>
+                <record key="clean">
+                    <value lang="en">Clean</value>
+                    <value lang="zh">清理</value>
+                </record>
+                <record key="borrow">
+                    <value lang="en">Borrow</value>
+                    <value lang="zh">领用</value>
+                </record>
+                <record key="scrap">
+                    <value lang="en">Scrap</value>
+                    <value lang="zh">报废</value>
+                </record>
+                <record key="remand">
+                    <value lang="en">Reamd</value>
+                    <value lang="zh">归还</value>
+                </record>
+            </Dictionary>
+        </Dictionary>
+    </Dictionary>
+    <Translations>
+        <Translation lang="en" title="English" author="cipher" />
+        <Translation lang="zh" title="简体中文" author="cipher" />
+    </Translations>
+</Dictionary>

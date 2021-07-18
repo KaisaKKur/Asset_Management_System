@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ams.client.AppTest" time="0.018" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\Documents\java\AssetManagementSystem\target\test-classes;D:\Documents\java\AssetManagementSystem\target\classes;C:\Users\cipherpowered\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\cipherpowered\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\cipherpowered\.m2\repository\com\weblookandfeel\weblaf-ui\1.2.12\weblaf-ui-1.2.12.jar;C:\Users\cipherpowered\.m2\repository\com\weblookandfeel\weblaf-core\1.2.12\weblaf-core-1.2.12.jar;C:\Users\cipherpowered\.m2\repository\com\thoughtworks\xstream\xstream\1.4.9\xstream-1.4.9.jar;C:\Users\cipherpowered\.m2\repository\net\htmlparser\jericho\jericho-html\3.3\jericho-html-3.3.jar;C:\Users\cipherpowered\.m2\repository\com\mortennobel\java-image-scaling\0.8.6\java-image-scaling-0.8.6.jar;C:\Users\cipherpowered\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\cipherpowered\.m2\repository\org\slf4j\slf4j-api\1.7.27\slf4j-api-1.7.27.jar;C:\Users\cipherpowered\.m2\repository\com\weblookandfeel\svg-salamander\1.1.2.2\svg-salamander-1.1.2.2.jar;C:\Users\cipherpowered\.m2\repository\com\fifesoft\rsyntaxtextarea\2.6.1\rsyntaxtextarea-2.6.1.jar;C:\Users\cipherpowered\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\CIPHER~1\AppData\Local\Temp\surefire843717094754945730\surefirebooter3242393999276455446.jar C:\Users\cipherpowered\AppData\Local\Temp\surefire843717094754945730 2020-06-17T11-17-39_447-jvmRun1 surefire3448948705988127683tmp surefire_013765603012968034663tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\Documents\java\AssetManagementSystem\target\test-classes;D:\Documents\java\AssetManagementSystem\target\classes;C:\Users\cipherpowered\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\cipherpowered\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\cipherpowered\.m2\repository\com\weblookandfeel\weblaf-ui\1.2.12\weblaf-ui-1.2.12.jar;C:\Users\cipherpowered\.m2\repository\com\weblookandfeel\weblaf-core\1.2.12\weblaf-core-1.2.12.jar;C:\Users\cipherpowered\.m2\repository\com\thoughtworks\xstream\xstream\1.4.9\xstream-1.4.9.jar;C:\Users\cipherpowered\.m2\repository\net\htmlparser\jericho\jericho-html\3.3\jericho-html-3.3.jar;C:\Users\cipherpowered\.m2\repository\com\mortennobel\java-image-scaling\0.8.6\java-image-scaling-0.8.6.jar;C:\Users\cipherpowered\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\cipherpowered\.m2\repository\org\slf4j\slf4j-api\1.7.27\slf4j-api-1.7.27.jar;C:\Users\cipherpowered\.m2\repository\com\weblookandfeel\svg-salamander\1.1.2.2\svg-salamander-1.1.2.2.jar;C:\Users\cipherpowered\.m2\repository\com\fifesoft\rsyntaxtextarea\2.6.1\rsyntaxtextarea-2.6.1.jar;C:\Users\cipherpowered\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\cipherpowered"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\Documents\java\AssetManagementSystem"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\CIPHER~1\AppData\Local\Temp\surefire843717094754945730\surefirebooter3242393999276455446.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.1+7"/>
+    <property name="user.name" value="cipherpowered"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\cipherpowered\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\CIPHER~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="14.0.1"/>
+    <property name="user.dir" value="D:\Documents\java\AssetManagementSystem"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-14.0.1\bin;C:\Program Files\Apache\maven\apache-maven-3.6.3\bin;C:\Program Files\cygwin64\bin;C:\Program Files\CMake\bin;C:\Program Files\Python\Python38\Scripts\;C:\Program Files\Python\Python38\;C:\Program Files\Python\Python37\Scripts\;C:\Program Files\Python\Python37\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Vim\vim82;D:\Program Files (x86)\WinSCP\;D:\Program Files (x86)\Bitvise SSH Client;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\ProgramData\Microsoft\Windows\Win+R\Programs;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\WiX Toolset v3.11\bin;C:\Program Files\dotnet\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\cipherpowered\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.4\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.1+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="ams.client.AppTest" time="0.001"/>
+</testsuite>
